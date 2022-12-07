@@ -20,8 +20,8 @@ class OccupationalRiskManager extends Model
         return $this->belongsTo(ORMType::class);
     }
 
-    public function occupationalRiskManagerState()
+    public function occupationalRiskManagerLevel()
     {
-        return $this->belongsTo(ORMState::class);
+        return $this->belongsTo(ORMLevel::class);
     }
 }

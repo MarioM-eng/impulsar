@@ -21,6 +21,7 @@ return new class extends Migration
             $table->date('retirement')->nullable(true);
             $table->binary('status');
             $table->string('position');
+            $table->float('minimum_wage');
             $table->foreignId('contract_type_id')->constrained();
             $table->foreignId('business_id')->constrained();
             $table->foreignId('employee_id')->constrained();

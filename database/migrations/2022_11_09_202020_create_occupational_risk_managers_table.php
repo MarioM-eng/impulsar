@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('occupational_risk_managers', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('o_r_m_type_id')->constrained();
+            $table->foreignId('o_r_m_level_id')->constrained();
             $table->foreignId('o_r_m_state_id')->constrained();
         });
     }

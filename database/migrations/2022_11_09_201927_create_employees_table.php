@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('last_names');
             $table->date('date_of_birth');
             $table->char('sex');
-            $table->string('cellphone');
+            $table->string('cellphone')->nullable(true);
             $table->string('phone')->nullable(true);
             $table->string('email')->unique()->nullable(true);
             $table->string('blood_type');

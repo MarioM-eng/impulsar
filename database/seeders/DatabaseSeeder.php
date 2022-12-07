@@ -25,9 +25,10 @@ class DatabaseSeeder extends Seeder
             BankTypeSeeder::class,
             ContractTypeSeeder::class,
             HealthSeeder::class,
-            ORMStateSeeder::class,
+            ORMLevelSeeder::class,
             ORMTypeSeeder::class,
             PensionSeeder::class,
+            UserSeeder::class,
         ]);
     }
 }

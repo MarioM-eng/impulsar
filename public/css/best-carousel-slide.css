@@ -1,0 +1,72 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.carousel-info {
+    max-width: 500px;
+    background: rgba(0,0,0,0.35);
+    border-radius: 76px;
+    padding: 25px;
+    position: absolute;
+    top: 25%;
+    transform: translateX(17%);
+}
+
+@media (max-width: 576px) {
+  .carousel-info {
+      width: 280px;
+      height: 68px;
+      padding: 0px;
+      transform: translateX(-50%);
+      left: 50%;
+  }
+}
+
+.card .img img {
+  max-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 170px;
+}
+
+@media (min-width: 768px) {
+  .carousel-item .carousel-hero {
+    height: 570px;
+  }
+}
+
